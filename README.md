@@ -20,26 +20,24 @@ MySQL
 npm (ou yarn)
 
 ### Executando o projeto
+# Back-end
 
 Os nomes das branches criadas devem seguir o seguinte padrão de nomenclatura:
 
 1. Clone o repositório:
-
-	```
-	[(https://github.com/KayFerraz/CRUD-FullStack.git)]
-	```
+```
+[(https://github.com/KayFerraz/CRUD-FullStack.git)]
+```
 
 2. Navegue até a pasta do back-end:
+```
+[cd api]
+```
 
-	```
-	[cd api]
-	```
-
-2. Instale as dependências:
-
-	```
-	[npm install]
-	```
+3. Instale as dependências:
+```
+[npm install]
+```
 
 
 4. Configure o banco de dados MySQL:
@@ -53,12 +51,27 @@ DB_USER=root
 DB_PASSWORD=sua_senha
 DB_NAME=cadastro_usuario
 ```
+
 5. Execute as migrações do banco de dados para criar as tabelas necessárias:
-   ```
-	[npm run migrate]
-	```
+```
+[npm run migrate]
+```
+
 6. Inicie o servidor:
 ```
 [npm start]
 ```
+# Front-end
 
+1. Navegue até a pasta do frontend:
+```
+[cd interface]
+```
+2. Instale as dependências:
+```
+[npm install]
+```
+3. Inicie o servidor de desenvolvimento:
+```
+[npm start]
+```
