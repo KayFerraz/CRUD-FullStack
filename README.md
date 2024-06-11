@@ -18,3 +18,47 @@ Requisitos
 Node.js
 MySQL
 npm (ou yarn)
+
+### Executando o projeto
+
+Os nomes das branches criadas devem seguir o seguinte padrão de nomenclatura:
+
+1. Clone o repositório:
+
+	```
+	[(https://github.com/KayFerraz/CRUD-FullStack.git)]
+	```
+
+2. Navegue até a pasta do back-end:
+
+	```
+	[cd api]
+	```
+
+2. Instale as dependências:
+
+	```
+	[npm install]
+	```
+
+
+4. Configure o banco de dados MySQL:
+
+Crie um banco de dados chamado cadastro_usuario.
+Configure as credenciais do banco de dados no arquivo .env.
+Exemplo de arquivo .env:
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=sua_senha
+DB_NAME=cadastro_usuario
+```
+5. Execute as migrações do banco de dados para criar as tabelas necessárias:
+   ```
+	[npm run migrate]
+	```
+6. Inicie o servidor:
+```
+[npm start]
+```
+
