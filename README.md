@@ -75,3 +75,5 @@ DB_NAME=cadastro_usuario
 ```
 [npm start]
 ```
+Projeto feito de acordo com vídeo:
+https://youtu.be/voXTVTW73E8?si=elW6KJ0HaJJuz1O9
